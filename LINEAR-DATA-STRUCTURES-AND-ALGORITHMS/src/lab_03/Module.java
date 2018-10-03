@@ -24,7 +24,7 @@ public class Module {
 		setModuleName("");
 		setModuleCode(0);
 		setMaxSudentsNo(0);
-		studentList = new ArrayList<Student>();
+		this.studentList = new ArrayList<Student>();
 
 	}
 
@@ -35,7 +35,7 @@ public class Module {
 	public Module (String moduleName, Integer moduleCode) {
 		setModuleName("");
 		setModuleCode(0);
-		studentList = new ArrayList<Student>();
+		this.studentList = new ArrayList<Student>();
 	}
 
 	//-----------
